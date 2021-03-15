@@ -1,0 +1,158 @@
+body {
+	margin: 0px;    /* Убрать рамки по краям */
+}
+
+
+.header {
+	width: 100%;    /* Ширина шапки */
+	position: absolute;    /* Позиция */
+	padding-top: 20px;
+	top: 0;    /* Растояние от верха */
+	left: 0;    /* Растояние слева */
+	right: 0;    /* Растояние справа */
+	
+}
+
+.header__main {
+	text-decoration: none;
+	color: #ffffff;    /* Цвет */
+	font-size: 25px;    /* Размер */
+	font-weight: 700;    /* Насыщенность */
+	font-family: 'Lobster', cursive;
+	background-color: #1d1d23;
+	border: 5px solid #1d1d23;
+	border-radius: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-top: 0px;
+}
+
+.header__all {
+	margin-top: 5px;
+	margin-right: 50px;
+}
+
+
+.header__all__des {
+	text-decoration: none;
+	color: #ffffff;    /* Цвет */
+	font-size: 25px;    /* Размер */
+	font-weight: 700;    /* Насыщенность */
+	font-family: 'Lobster', cursive;
+	background-color: #1d1d23;
+	border: 5px solid #1d1d23;
+	border-radius: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-top: 0px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+.intro {
+	display: flex;				/* Выравнивание по центру */
+	flex-direction: column;		/* Выравнивание по центру */
+	justify-content: center;	/* Выравнивание по центру */
+	width: 100%;    /* Задний фон на всю ширину */
+	height: 100%;    /* Задний фон на всю высоту сайта */
+	background: url(../images/bg.jpg) center no-repeat;    /* Картинка на задний фон */
+	-webkit-background-size: cover;
+	background-size: cover;    /* Покрыть весь эран */
+}
+
+
+.container {
+	width: 100%;    /* Ширина контейнера */
+	max-width: 90%;    /* Ширина контейнера в пикселях */
+	margin: 0px auto;    /* Разместить контейнер по центру */
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.photo {
+	width: 100%;    /* Ширина контейнера */
+	max-width: 600px;    /* Ширина контейнера в пикселях */
+	text-align: center;
+}
+
+
+.photo__up {
+	color: #1d1d23;    /* Цвет */
+	font-size: 40px;    /* Размер */
+	font-weight: 700;    /* Насыщенность */
+	font-family: 'Lobster', cursive;
+	margin-bottom: 15px;
+	margin-top: 20px;
+}
+
+
+.photo__down {
+	width: 600px;
+	border: 2px solid #1d1d23;
+	border-radius: 2px;
+	box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+
+.description {
+	max-width: 600px;    /* Ширина контейнера в пикселях */
+	text-align: center;
+}
+
+
+.description__up {
+	color: #1d1d23;    /* Цвет */
+	font-size: 40px;    /* Размер */
+	font-weight: 700;    /* Насыщенность */
+	font-family: 'Lobster', cursive;
+}
+
+
+.description__center {
+	color: #1d1d23;    /* Цвет */
+	font-size: 20px;    /* Размер */
+	font-weight: 700;    /* Насыщенность */
+	font-family: 'Lobster', cursive;
+	margin-bottom: 0px;
+	line-height: 1.2;
+}
+
+
+.price {
+	display: flex;
+	width: 100%;
+	margin-top: -40px;
+}
+
+
+.price__left {
+	color: #1d1d23;    /* Цвет */
+	font-size: 70px;    /* Размер */
+	font-weight: 700;    /* Насыщенность */
+	font-family: 'Lobster', cursive;
+	margin-left: 0px;
+}
+
+
+.price__right {
+	color: #1d1d23;    /* Цвет */
+	font-size: 70px;    /* Размер */
+	font-weight: 700;    /* Насыщенность */
+	font-family: 'Lobster', cursive;
+	margin-left: 100px;
+}
+
+
+button {
+	background-color: #1d1d23;
+	color: #ffffff;
+	font-size: 70px;    /* Размер */
+	font-weight: 700;    /* Насыщенность */
+	font-family: 'Lobster', cursive;
+	border: 3px solid #1d1d23;
+	border-radius: 3px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
